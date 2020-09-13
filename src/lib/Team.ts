@@ -1,5 +1,4 @@
-import {baseTestResultType, IOctant, ITendency, IUserResult} from "../types/types"
-import {IMember} from "../types/types"
+import {baseTestResultType, IMember, IOctant, ITendency, IUserResult} from "../types/types"
 
 import {octantCodeList, UserResult} from './UserResult'
 import {getPersonPortrait, getPersonProfile} from "./utils"

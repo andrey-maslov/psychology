@@ -13,8 +13,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./lib/UserResult"), exports);
 __exportStar(require("./lib/Pair"), exports);
 __exportStar(require("./lib/Team"), exports);
-__exportStar(require("./types/types"), exports);
 __exportStar(require("./lib/utils"), exports);
 __exportStar(require("./lib/encoded-data-parser"), exports);
 __exportStar(require("./lib/calculate-test-results"), exports);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsbURBQWdDO0FBQ2hDLDZDQUEwQjtBQUMxQiw2Q0FBMEI7QUFDMUIsZ0RBQTZCO0FBQzdCLDhDQUEyQjtBQUMzQiw0REFBeUM7QUFDekMsK0RBQTRDIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsbURBQWdDO0FBQ2hDLDZDQUEwQjtBQUMxQiw2Q0FBMEI7QUFDMUIsOENBQTJCO0FBQzNCLDREQUF5QztBQUN6QywrREFBNEMifQ==

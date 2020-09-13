@@ -147,8 +147,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/utils.ts": {
-        "version": "cfc605d2ca1d38b61b3da8f8557becb0d0f0cdd50fa237c658162daafc44a222",
-        "signature": "ca2a25fbf3ad65823f85ecb360f091cd8a89e4aed62e1d77897da6aa854e282c",
+        "version": "f4b7a02db34779b5e999fb49b610ab0b92622e0f18c02a4516f3b2c57d6b27b2",
+        "signature": "9035392a4cec63fe75cfde6ca43332d522321bdfa1c14bbcd2874c724b811c00",
         "affectsGlobalScope": false
       },
       "../src/lib/userresult.ts": {
@@ -162,8 +162,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/team.ts": {
-        "version": "e4e688f5c97280fdc67c32d2e10278854a1065f451cda828bc663e3576a942e8",
-        "signature": "d12cdb75293108dc4a7adccb4ed9d42f60c98fda5193d76ccefbf0e8718ca1a4",
+        "version": "066008c615ad3ded357610d018cedb5aebeb3d59e832b1bbf03902ed42c5c064",
+        "signature": "80454f306082b1cebb0d8460149be2cade6e719efb2a1eb3fe09f939fa014d26",
         "affectsGlobalScope": false
       },
       "../src/lib/encoded-data-parser.ts": {
@@ -172,18 +172,18 @@
         "affectsGlobalScope": false
       },
       "../src/lib/calculate-test-results.ts": {
-        "version": "af502d4f130dd9fd5beb07ccc36b619e165ef4efce00363a8d1ae3368ab9397a",
-        "signature": "d6b25b22c94d4300613a794bdf9c10b3c39618ee21924477cfdff314d77c6b21",
+        "version": "5ecef4ca8264fc47aa77b72cba41607fd1be209ff33273586bf301b28c1fa54d",
+        "signature": "2e9ac3274b50fbe14c8141e2a16478bc4557b5aea27eaaa88b2f2dd611d885e5",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "4c78ee7e55dbbc02928283c2c3a770de0fa25c9a3275c304739806503e00500e",
-        "signature": "caaf12b802322a91803a934a701aec370e7c1cc92cbec86930e6ab36848297c3",
+        "version": "8dad31ad4ac59d3d545e45788c03c7028472ed487920776c624b2c6f9c18a7d6",
+        "signature": "fef69662d1621d98aab58d8468df13f5fd7730bc871c6c02d36fa9d9a05d4f09",
         "affectsGlobalScope": false
       },
       "../src/types/index.d.ts": {
-        "version": "f8070229c2478cbd889d8fb77d2dc16e0b391c4108cf5ff574fa11031026b2a0",
-        "signature": "f8070229c2478cbd889d8fb77d2dc16e0b391c4108cf5ff574fa11031026b2a0",
+        "version": "661630d4726f623aa2cfc2c358c63aab563f1ff2956badc475c6c8094e457cbc",
+        "signature": "661630d4726f623aa2cfc2c358c63aab563f1ff2956badc475c6c8094e457cbc",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.1/globals.d.ts": {
@@ -1227,8 +1227,7 @@
         "../src/lib/pair.ts",
         "../src/lib/team.ts",
         "../src/lib/userresult.ts",
-        "../src/lib/utils.ts",
-        "../src/types/types.ts"
+        "../src/lib/utils.ts"
       ],
       "../src/lib/calculate-test-results.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -1237,7 +1236,7 @@
         "../node_modules/@types/node/ts3.4/fs.d.ts",
         "../node_modules/@types/node/ts3.4/process.d.ts",
         "../node_modules/@types/node/ts3.4/util.d.ts",
-        "../src/index.ts"
+        "../src/types/types.ts"
       ],
       "../src/lib/encoded-data-parser.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -1285,8 +1284,8 @@
         "../node_modules/@types/node/ts3.4/fs.d.ts",
         "../node_modules/@types/node/ts3.4/process.d.ts",
         "../node_modules/@types/node/ts3.4/util.d.ts",
-        "../src/index.ts",
-        "../src/lib/userresult.ts"
+        "../src/lib/userresult.ts",
+        "../src/types/types.ts"
       ],
       "../src/types/index.d.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -2046,11 +2045,10 @@
         "../src/lib/pair.ts",
         "../src/lib/team.ts",
         "../src/lib/userresult.ts",
-        "../src/lib/utils.ts",
-        "../src/types/types.ts"
+        "../src/lib/utils.ts"
       ],
       "../src/lib/calculate-test-results.ts": [
-        "../src/index.ts"
+        "../src/types/types.ts"
       ],
       "../src/lib/pair.ts": [
         "../src/types/types.ts"
@@ -2062,7 +2060,7 @@
         "../src/types/types.ts"
       ],
       "../src/lib/utils.ts": [
-        "../src/index.ts"
+        "../src/types/types.ts"
       ],
       "../src/types/index.d.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",

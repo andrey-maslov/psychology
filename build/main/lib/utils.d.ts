@@ -1,4 +1,4 @@
-import { baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency } from "..";
+import { baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency } from "../types/types";
 export declare function getDescByRange(value: number, descList: {
     readonly title: string;
     readonly variants: readonly IDescWithRange[];

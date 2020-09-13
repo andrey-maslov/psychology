@@ -1,4 +1,4 @@
-import { AnswerType } from '..';
+import { AnswerType } from '../types/types';
 
 export function calculateResults(answersArr: ReadonlyArray<AnswerType>) {
     const arrSum = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]

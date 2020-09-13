@@ -1,4 +1,4 @@
-import {baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency} from ".."
+import {baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency} from "../types/types"
 
 import {octantCodeList} from "./UserResult"
 

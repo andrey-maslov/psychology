@@ -1,5 +1,4 @@
-import { baseTestResultType, IOctant, ITendency } from "../types/types";
-import { IMember } from "../types/types";
+import { baseTestResultType, IMember, IOctant, ITendency } from "../types/types";
 export declare function Team(dataList: readonly baseTestResultType[]): Readonly<{
     profile: {
         index: number;
