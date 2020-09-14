@@ -142,8 +142,8 @@
         "affectsGlobalScope": true
       },
       "../src/types/types.ts": {
-        "version": "3c3d14b169ea13860b715f882ec85729876e2e845899bcc3c6939a64b783a2bc",
-        "signature": "78771210da98163b88aca1fbf9b5498cdc604597f1454c69b3ada3e447e749d0",
+        "version": "0e39215f3ee5e03c4e7460e65749d9051a07c2783ae8c83403f7eab88a962aae",
+        "signature": "2092ac6caa008763be13d94e6ca4d6153242528479b34afbbc05cab16aeff164",
         "affectsGlobalScope": false
       },
       "../src/lib/utils.ts": {
@@ -167,8 +167,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/encoded-data-parser.ts": {
-        "version": "86958f763dd969672aa46b900985a32a7d2601e9e85624e20de025b1868f174c",
-        "signature": "105239cb049c48adf55f2199231ae44797e82b437abda57075f5fbe424893457",
+        "version": "30a2c688c19777c33d78aa44b91643d93ee1a5b5a4c6fbc77167b5c2a9284881",
+        "signature": "ff1606dc9e2948058e88d7607c772ed6cb941d1827049099b5ddd15c34ffc75e",
         "affectsGlobalScope": false
       },
       "../src/lib/calculate-test-results.ts": {
@@ -1244,7 +1244,8 @@
         "../node_modules/@types/node/ts3.1/util.d.ts",
         "../node_modules/@types/node/ts3.4/fs.d.ts",
         "../node_modules/@types/node/ts3.4/process.d.ts",
-        "../node_modules/@types/node/ts3.4/util.d.ts"
+        "../node_modules/@types/node/ts3.4/util.d.ts",
+        "../src/types/types.ts"
       ],
       "../src/lib/pair.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -2048,6 +2049,9 @@
         "../src/lib/utils.ts"
       ],
       "../src/lib/calculate-test-results.ts": [
+        "../src/types/types.ts"
+      ],
+      "../src/lib/encoded-data-parser.ts": [
         "../src/types/types.ts"
       ],
       "../src/lib/pair.ts": [

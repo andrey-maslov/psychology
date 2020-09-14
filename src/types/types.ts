@@ -1,4 +1,12 @@
-export type baseTestResultType = readonly (readonly number[])[];
+/**
+ * Результат калькуляции теста
+ */
+export type baseTestResultType = readonly (readonly number[])[]
+
+/**
+ * Результат калькуляции теста + доп данные (пол, возраст, семейный статус)
+ */
+export type DecodedDataType = readonly [readonly number[], baseTestResultType]
 
 export interface IDescWithRange {
   readonly desc: string,
@@ -21,8 +29,6 @@ export interface ITendency {
   readonly index: number,
   readonly value: number
 }
-
-export type DecodedDataType = readonly [readonly number[], readonly (readonly number[])[]]
 
 export interface IMember {
   readonly id: string

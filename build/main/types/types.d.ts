@@ -1,4 +1,11 @@
+/**
+ * Результат калькуляции теста
+ */
 export declare type baseTestResultType = readonly (readonly number[])[];
+/**
+ * Результат калькуляции теста + доп данные (пол, возраст, семейный статус)
+ */
+export declare type DecodedDataType = readonly [readonly number[], baseTestResultType];
 export interface IDescWithRange {
     readonly desc: string;
     readonly range: readonly [number, number];
@@ -17,7 +24,6 @@ export interface ITendency {
     readonly index: number;
     readonly value: number;
 }
-export declare type DecodedDataType = readonly [readonly number[], readonly (readonly number[])[]];
 export interface IMember {
     readonly id: string;
     readonly name: string;

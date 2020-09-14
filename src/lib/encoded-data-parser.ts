@@ -1,7 +1,9 @@
+import { DecodedDataType } from '../types/types';
+
 export function getAndDecodeData(key = 'encdata', encodedValue?: string): {
     readonly encoded: string | null,
     readonly decoded: string | null,
-    readonly data: readonly (readonly number[])[] | null,
+    readonly data: DecodedDataType | null,
 } {
 
     const value = encodedValue ? encodedValue.trim() : parseUrl(key)
