@@ -2,20 +2,20 @@ import {baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency}
 
 import {octantCodeList} from "./UserResult"
 
-export function getDescByRange (value: number, descList: { readonly title: string, readonly variants: readonly IDescWithRange[] }): IDescWithStatus {
+export function getDescByRange (value: number, descList: { readonly title: string, readonly options: readonly IDescWithRange[] }): IDescWithStatus {
 
     let desc = ''
     let index = null
 
   // eslint-disable-next-line functional/no-loop-statement
-    for (let i = 0; i < descList.variants.length; i++) {
-        if (value > (descList.variants[i].range[0]) && value <= (descList.variants[i].range[1])) {
-            desc = descList.variants[i].desc
+    for (let i = 0; i < descList.options.length; i++) {
+        if (value > (descList.options[i].range[0]) && value <= (descList.options[i].range[1])) {
+            desc = descList.options[i].desc
             index = i
             break
         }
     }
-    const status = index === 0 ? 0 : (index === descList.variants.length ? 2 : 1)
+    const status = index === 0 ? 0 : (index === descList.options.length ? 2 : 1)
     return {title: descList.title, desc, status}
 }
 
