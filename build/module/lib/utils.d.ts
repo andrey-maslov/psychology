@@ -1,7 +1,7 @@
 import { baseTestResultType, IDescWithRange, IDescWithStatus, IOctant, ITendency } from "../types/types";
 export declare function getDescByRange(value: number, descList: {
     readonly title: string;
-    readonly variants: readonly IDescWithRange[];
+    readonly options: readonly IDescWithRange[];
 }): IDescWithStatus;
 export declare function getIndexByRange(value: number, descList: readonly IDescWithRange[]): number;
 export declare function getKeyResult(value: number, results: readonly string[]): string;
