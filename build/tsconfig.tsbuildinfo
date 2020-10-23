@@ -147,8 +147,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/utils.ts": {
-        "version": "ce1157533a415935da3a725da27a12178786cf45e18f64dd5a85123738edc56b",
-        "signature": "e943b0443a339f3553519113c1051f7092f99610f6b63a814f84ecd446b5743e",
+        "version": "f76b3a0825d06d5983d1a036058eb82a5e2d906ae4667a080a9e98909372f2b1",
+        "signature": "9c74a18136775e4de7804590628c6954631eefabd078cfc375a6530730bf20cd",
         "affectsGlobalScope": false
       },
       "../src/lib/userresult.ts": {
@@ -167,8 +167,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/encoded-data-parser.ts": {
-        "version": "30a2c688c19777c33d78aa44b91643d93ee1a5b5a4c6fbc77167b5c2a9284881",
-        "signature": "ff1606dc9e2948058e88d7607c772ed6cb941d1827049099b5ddd15c34ffc75e",
+        "version": "868f672258c7fa61ca67f5137e438302c5e23bb793e99844ffe8565fbfb70daf",
+        "signature": "b7586877a94cf2ea62f6464fa6ac2c6c682b621d09956bdeeadc10a3e5fb6140",
         "affectsGlobalScope": false
       },
       "../src/lib/calculate-test-results.ts": {

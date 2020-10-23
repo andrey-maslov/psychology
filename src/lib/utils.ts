@@ -103,7 +103,7 @@ export function getPersonPortrait(profile: readonly ITendency[]): readonly IOcta
  * @param famousList
  * @param sex
  */
-export function getFamous(octant: IOctant, famousList: readonly (readonly string[])[], sex = 0): string | null {
+export function getFamous(octant: IOctant, famousList: readonly (readonly (readonly string[])[])[], sex = 0): { readonly person: string, readonly picture: string } | null {
   //sex: 0 - male, 1 - female, 2 - some else
   const value = octant.value
   const range = [8.75, 42.35, 140, 218.57]
@@ -113,9 +113,9 @@ export function getFamous(octant: IOctant, famousList: readonly (readonly string
   }
 
   if (value >= range[0] && value < range[1]) {
-    return famousList[octant.index][0].split('/')[sex]
+    return { person: famousList[octant.index][0][sex], picture: `${octant.index}_0_${sex}` }
   } else if (value >= range[1] && value < range[2]) {
-    return famousList[octant.index][1].split('/')[sex]
+    return {person: famousList[octant.index][1][sex], picture: `${octant.index}_1_${sex}`}
   }
-  return famousList[octant.index][2].split('/')[sex]
+  return {person: famousList[octant.index][2][sex], picture: `${octant.index}_2_${sex}`}
 }

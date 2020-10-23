@@ -13,4 +13,7 @@ export declare function getPersonPortrait(profile: readonly ITendency[]): readon
  * @param famousList
  * @param sex
  */
-export declare function getFamous(octant: IOctant, famousList: readonly (readonly string[])[], sex?: number): string | null;
+export declare function getFamous(octant: IOctant, famousList: readonly (readonly (readonly string[])[])[], sex?: number): {
+    readonly person: string;
+    readonly picture: string;
+} | null;

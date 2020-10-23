@@ -6,5 +6,5 @@ export declare function getAndDecodeData(key?: string, encodedValue?: string): {
 };
 export declare function parseUrl(key?: string): string | null;
 export declare function validateDecodedData(value: string): boolean;
-export declare function isBase64(str: string): boolean;
+export declare function isBase64Browser(str: string): boolean;
 export declare function IsJsonString(str: string): boolean;
