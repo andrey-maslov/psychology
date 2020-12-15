@@ -1,11 +1,17 @@
 # Psychology
 
-library for internal use
+Библиотека, предоставляющая методы основных обсчетов, необходимых для создания:
+- Психологического профиля пользователя 
+- Психологического портрета пользователя 
+- Эффективности взаимодействия пары двух партнеров (психологических профилей) 
+- Эффективности взаимодействия команды (психологических профилей) 
 
-src: https://github.com/bitjson/typescript-starter
+template src: https://github.com/bitjson/typescript-starter
 
 
-## getAndDecodeData()
+## Некоторые методы
+Полная документация в папке build/docs/ (сгенерирована с помощью typedoc)
+### getAndDecodeData()
 ```javascript
 import { getAndDecodeData } from 'psychology'
 ```
@@ -64,9 +70,10 @@ npm install
 
 ##### В коде компонента
 ```javascript
-import parseEncodedData from 'encoded-data-parser';
+import { getAndDecodeData } from 'psychology';
 
-//some code
+// ... some code
 
-const dataFromUrl = parseEncodedData();
+// parse url query params if it has encoded data
+const dataFromUrl: DecodedDataType | null = getAndDecodeData().data
 ```

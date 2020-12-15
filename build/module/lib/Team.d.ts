@@ -1,4 +1,29 @@
-import { baseTestResultType, IMember, IOctant, ITendency } from "../types/types";
+import { baseTestResultType, IMember, IOctant, ITendency } from '../types/types';
+/**
+ * Функция конструктор, возвращает ряд значений для характеристики взаимодействия внутри команды
+ * Использование:
+ * ```
+ * import { Team } from "psychology"
+ * const team = Team(testResultList)
+ * team.profile // Психологический профиль команды:  ITendency[]
+ * team.portrait // Психологический портрет команды:  IOctant[]
+ * team.profileList
+ * team.getCrossFunc // Кроссфункциональность команды: number
+ * team.getInteraction
+ * team.getEmotionalComp // Уровень эмоциональной совместимости: number
+ * team.getLoyalty // Уровень лояльности внутри команды:  number
+ * team.getLeadingMemberByType // Индекс октанта для определения лидера в данной специализации:  number
+ * team.getCommitment
+ * team.getDescIndexes
+ * team.getNeedfulPsychoType // Психотип, которого не достает команде
+ * team.getAllCandidates // Все кандидаты из пула, которых нет в команде: IMember[]
+ * team.getCandidates // Кандидаты из пула, которые нужны команде согласно психологическим предпосылкам
+ * team.getUnwanted // Работники команды, которые нежелательны в ней: IMember[] | null
+ * ```
+ * @returns
+ * @param dataList - Массив результатов пользователей. (5х5)[]
+ * @constructor
+ */
 export declare function Team(dataList: readonly baseTestResultType[]): Readonly<{
     profile: {
         index: number;
