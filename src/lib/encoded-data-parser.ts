@@ -64,7 +64,7 @@ export function parseUrl(key = 'encdata'): string | null {
  * @param value - массив 5х5 преобразованный в строку
  */
 export function validateDecodedData(value: string): boolean {
-  const regex = /^\[\[([+-]?\d,?){3}],\[(\[([+-]?\d,?){5}],?){5}\]\]$/;
+  const regex = /^\[\[([+-]?\d,?)+],\[(\[([+-]?\d,?){5}],?){5}\]\]$/;
   return value.search(regex) === 0;
 }
 
